@@ -1,5 +1,5 @@
-jQuery select plugin based on jQueryui widget design
-==================================================
+jQuery multiple select plugin based on jQueryui widget design
+=============================================================
 [ParamQuery Select](http://paramquery.com/select) a.k.a. pqSelect v1.0.0
 
 Copyright (c) 2015 Paramvir Dhindsa 
