@@ -1,14 +1,12 @@
 {
-  "name": "pqselect",
+  "name": "paramquery-select",
   "version": "1.0.0",
   "author": {
     "name": "Paramvir Dhindsa",
-    "email": "pdhindsa@paramquery.com",
     "url": "http://www.paramquery.com/"
   },
   "maintainers": [{
     "name": "Paramvir Dhindsa",
-    "email": "pdhindsa@paramquery.com",
     "url": "http://www.paramquery.com/"
   }],
   "licenses": [
@@ -17,20 +15,26 @@
       "url": "http://paramquery.com/license"
     }
   ],
-  "description": "jQuery plugin or jQueryUI widget to select multiple or single options with checkboxes, radio buttons, with support for search, grouping, disabled options and jQueryUI themeRoller ready.",
-  "homepage": "http://paramquery.com/select",
+  "description": "jQuery plugin to select multiple or single options with checkboxes, radio buttons, with support for search, grouping, disabled options and jQueryUI themeRoller ready.",
+  "homepage": "http://paramquery.com/select",  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paramquery/select.git"
+  },
   "docs": "http://paramquery.com/api/select",
   "demo": "http://paramquery.com/select",  
   "keywords": [
-    "multiple select",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "multiple-select",
     "option",
     "checkbox",
     "radio",
     "ui",
-    "themeRoller",
-    "group",
+    "theme-roller",
+    "grouping",
     "search",
-    "disabled options"
+    "disabled-options"
   ],
   "bugs": "https://github.com/paramquery/select/issues",
   "dependencies": {
