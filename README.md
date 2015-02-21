@@ -6,7 +6,7 @@ Copyright (c) 2015 Paramvir Dhindsa
 
 [Released under GPL v3 license](http://paramquery.com/license)
  
-ParamQuery select is an open source jQuery select plugin which converts ordinary select lists i.e., multiple and single select lists created with &lt;select&gt; and &lt;select multiple="multiple"&gt; HTML tag into theme ready jQueryUI widget.
+ParamQuery select is an open source jQuery select plugin which converts ordinary multiple and single select lists created with &lt;select multiple="multiple"&gt; and &lt;select&gt; HTML tags into theme ready jQueryUI widget.
 
 1. [API](http://paramquery.com/api/select)
 
