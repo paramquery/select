@@ -18,7 +18,7 @@ ParamQuery select is an open source jQuery select plugin which converts ordinary
 
 1. use checkboxes with options in multiple select lists.
 
-2. use radio butttons with options in single select lists.
+2. use radio buttons with options in single select lists.
 
 3. search box.
 
@@ -28,4 +28,4 @@ ParamQuery select is an open source jQuery select plugin which converts ordinary
 
 6. keyboard navigation.
 
-7. themeroller ready.
+7. theme roller ready.
