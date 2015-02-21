@@ -29,3 +29,5 @@ ParamQuery select is an open source jQuery select plugin which converts ordinary
 6. keyboard navigation.
 
 7. theme roller ready.
+
+8. Supports major browsers IE8+, Chrome, Firefox, Safari, Opera.

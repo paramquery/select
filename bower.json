@@ -1,0 +1,31 @@
+{
+  "name": "ParamQuery Select",
+  "version": "1.0.0",
+  "homepage": "http://paramquery.com/select",
+  "authors": [
+    "Paramvir Dhindsa <pdhindsa@paramquery.com>"
+  ],
+  "description": "jQuery plugin or jQueryUI widget to select multiple or single options with checkboxes, radio buttons, with support for search, grouping, disabled options and jQueryUI themeRoller ready.",
+  "main": "pqSelect.min.js",
+  "keywords": [
+    "select",
+    "jQuery",
+    "jQueryUI",
+    "theme",
+    "themeroller",
+    "grouping",
+    "multiple",
+    "options",
+    "checkbox",
+    "radio",
+    "disabled"
+  ],
+  "license": "GNU GPL v3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
