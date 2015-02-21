@@ -22,9 +22,9 @@ ParamQuery select is an open source jQuery select plugin which converts ordinary
 
 3. search box.
 
-3. support for grouping via &lt;optgroup&gt; tag.
+3. support for grouping via optgroup tag.
 
-4. support for disabled options via &lt;option disabled="disabled"&gt; attribute.
+4. support for disabled options via disabled attribute.
 
 6. keyboard navigation.
 
