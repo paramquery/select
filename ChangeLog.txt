@@ -1,0 +1,4 @@
+Version 1.0.1 (02/22/2015)
+==========================
+
+Fix: Radio button & Checkbox in popup menu not checked/unchecked when click directly.
