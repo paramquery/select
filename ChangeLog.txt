@@ -1,7 +1,8 @@
 Version 1.1.0 (03/09/2015)
 ==========================
 
-New: bottom edge detection.
+New: Edge detection.
+option: edgeDetect
 
 Fix: strange blue box at bottom when search is false.
 
