@@ -12,22 +12,30 @@ ParamQuery select is an open source jQuery select plugin which converts ordinary
 
 2. [Demos or Examples](http://paramquery.com/select)
 
+Dependencies:
+
+ jquery >= 1.7.0
+ jqueryui >= 1.9.1
+
+
 ### Features:
 
 ```
 
-1. use checkboxes with options in multiple select lists.
+1. Checkboxes with options in multiple select lists.
 
-2. use radio buttons with options in single select lists.
+2. Rdio buttons with options in single select lists.
 
-3. search box.
+3. Search box.
 
-3. support for grouping via optgroup tag.
+4. Support for grouping via optgroup tag.
 
-4. support for disabled options via disabled attribute.
+5. Support for disabled options via disabled attribute.
 
-6. keyboard navigation.
+6. Keyboard navigation.
 
-7. theme roller ready.
+7. Edge detection.
 
-8. Supports major browsers IE8+, Chrome, Firefox, Safari, Opera.
+8. Theme roller ready.
+
+9. Supports major browsers IE8+, Chrome, Firefox, Safari, Opera.
