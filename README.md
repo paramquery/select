@@ -15,7 +15,7 @@ ParamQuery select is an open source jQuery select plugin which converts ordinary
 Dependencies:
 
  jquery >= 1.7.0
- jqueryui >= 1.9.1
+ jqueryui >= 1.9.2
 
 
 ### Features:

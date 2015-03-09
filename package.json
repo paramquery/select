@@ -40,7 +40,7 @@
   "bugs": "https://github.com/paramquery/select/issues",
   "dependencies": {
     "jquery": ">=1.7.0",
-    "jqueryui": ">=1.9.1"
+    "jqueryui": ">=1.9.2"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
