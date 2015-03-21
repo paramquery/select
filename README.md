@@ -24,7 +24,7 @@ Dependencies:
 
 1. Checkboxes with options in multiple select lists.
 
-2. Rdio buttons with options in single select lists.
+2. Radio buttons with options in single select lists.
 
 3. Search box.
 
@@ -34,7 +34,7 @@ Dependencies:
 
 6. Keyboard navigation.
 
-7. Edge detection.
+7. Collision/Edge detection.
 
 8. Theme roller ready.
 

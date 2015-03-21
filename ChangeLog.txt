@@ -1,3 +1,16 @@
+Version 1.2.0 (03/20/2015)
+==========================
+
+New:
+swipe scrolling in touch devices.
+use of position option for collision detection
+button & popup box-sizing changed to border-box
+css layout of search box.
+
+Fix: 
+incorrect namespacing of scroll and resize events on window leading to cease functioning of draggable on the page.
+removal of console.log statements in pqselect.min.js
+
 Version 1.1.0 (03/09/2015)
 ==========================
 
