@@ -1,0 +1,69 @@
+<!doctype html>  
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>ParamQuery Select</title>
+        <!--jquery dependencies-->
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" />    
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+        <!--pqSelect dependencies-->
+        <link rel="stylesheet" href="pqselect.dev.css" />    
+        <script src = "pqselect.dev.js"></script>
+
+
+        <script type="text/javascript">
+            $(function() {
+                
+                //initialize the pqSelect widget.
+                $("#select3").pqSelect({
+                    multiplePlaceholder: 'Select Regions',
+                    checkbox: true //adds checkbox to options    
+                }).on("change", function(evt) {
+                    var val = $(this).val();
+                    alert(val);
+                }).pqSelect('open');
+            });
+        </script>  
+    </head>  
+
+    <body>
+        <div>
+        <select id="select3" multiple=multiple style="margin: 20px;width:300px;">            
+            <optgroup label="Brazil">
+                <option>RJ</option>
+                <option>SP</option>
+            </optgroup>
+            <optgroup label="Canada">
+                <option>BC</option>
+                <option>Québec</option>
+            </optgroup>
+            <optgroup label="Ireland">
+                <option>Co. Cork</option>
+            </optgroup>
+            <optgroup label="UK">
+                <option>Essex</option>
+                <option>Isle of Wight</option>
+            </optgroup>
+            <optgroup label="USA">
+                <option>AK</option>
+                <option>CA</option>
+                <option>ID</option>
+                <option>MT</option>
+                <option>NM</option>
+                <option>OR</option>
+                <option>WA</option>
+                <option>WY</option>
+            </optgroup>
+            <optgroup label="Venezuela">
+                <option>DF</option>
+                <option>Lara</option>
+                <option>Nueva Esparta</option>
+                <option>Táchira</option>
+            </optgroup>
+
+        </select>
+</div>
+    </body>
+</html>
