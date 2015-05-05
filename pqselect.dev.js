@@ -631,7 +631,7 @@
                 clsItem = 'pq-select-item ui-corner-all ui-state-default',
                 tmpl = function(indx) {
                     if (deselect) {
-                        return ["<span class='", clsItem, "' data-id = '", indx, "'>",
+                        return ["<span class='", clsItem, " btn btn-default' data-id = '", indx, "'>",
                             "<span class='ui-icon ui-icon-close'></span>",
                             "<span class='pq-select-item-text'>", data[indx].text, "</span>",
                             "</span>"].join("");
