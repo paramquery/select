@@ -34,7 +34,9 @@
             selectCls: 'ui-state-highlight pq-state-select',
             width: null,
             maxSelectReach: null,
-            maxSelectExceed: null
+            maxSelectExceed: null,
+            closeOnWindowScroll: true,
+            closeOnWindowResize: true
         };
     }();
     fn._setButtonWidth = function() {
@@ -119,12 +121,18 @@
         });
         this.setText();
         var EN = this.eventNamespace;
-        $(window).on("resize"+EN+" scroll"+EN, function(evt){
+        $(window).on("resize"+EN, function(evt){
             that.onWindowResize(evt);
+        });
+        $(window).on("scroll"+EN, function(evt){
+            that.onWindowScroll(evt);
         });
     };
     fn.onWindowResize = function(){
-        this.close();
+        if(this.options.closeOnWindowResize) this.close();
+    };
+    fn.onWindowScroll = function(){
+        if(this.options.closeOnWindowScroll) this.close();
     };
     fn.focus = function() {
         var that = this;
