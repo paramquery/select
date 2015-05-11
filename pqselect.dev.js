@@ -685,8 +685,10 @@
         else {
             $button.addClass('pq-select-single');
             $selectText.css("maxWidth", $button.width() - 16);
-            var indx = selectIndx[0],
-                    text = data[indx].text;
+            var indx = selectIndx[0];
+            if(typeof(indx) !== "undefined"){
+                text = data[indx].text;
+            }
             if (text != null && text !== "") {
                 text = tmpl(indx);
                 if (deselect) {
