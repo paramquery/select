@@ -1,6 +1,6 @@
 {
   "name": "ParamQuery Select",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "homepage": "http://paramquery.com/select",
   "authors": [
     "Paramvir Dhindsa <http://paramquery.com>"
@@ -12,6 +12,7 @@
     "select",
     "jQuery",
     "jQueryUI",
+    "bootstrap",
     "theme",
     "theme-roller",
     "collision-detection",
