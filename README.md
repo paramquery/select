@@ -36,8 +36,10 @@ Dependencies:
 
 7. Collision/Edge detection.
 
-8. Bootstrap support.
+8. Bootstrap support. (v1.3.0)
 
 9. Theme roller ready.
 
-10. Supports major browsers IE8+, Chrome, Firefox, Safari, Opera.
+10. AMD support. (v1.3.0)
+
+11. Supports major browsers IE8+, Chrome, Firefox, Safari, Opera.
