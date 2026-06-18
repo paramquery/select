@@ -1,3 +1,24 @@
+Version 2.2.0 (06/17/2026)
+==========================
+Added support for jQuery 4.x environments.
+Added native ES Module (ESM) integration support (`.mjs`).
+Transitioned project license from GPL v3 to the MIT License.
+
+Version 2.1.0 (05/12/2023)
+==========================
+
+Fixes:
+options not visible in some cases
+undefined value of first option in single select when option value pair is used
+
+Version 2.0.1 (12/05/2022)
+==========================
+
+Fixes:
+menu extending below popup in jquery >= v3
+narrow menu and invisible search box  in jquery >= v3.5
+height of search box should match o.rowHt
+
 Version 2.0.0 (02/17/2022)
 ==========================
 

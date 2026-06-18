@@ -1,72 +1,56 @@
 {
   "name": "pqselect",
   "fullname": "paramquery-select",
-  "version": "2.0.0",
-  "main": "index.js",
+  "version": "2.2.0",
+  "main": "./pqselect.min.js",
+  "module": "./pqselect.mjs",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./pqselect.d.ts",
+      "import": "./pqselect.mjs",
+      "require": "./pqselect.min.js"
+    }
+  },
   "author": {
     "name": "Paramvir Dhindsa",
-    "url": "http://www.paramquery.com/"
+    "url": "https://paramquery.com/"
   },
-  "maintainers": [
-    {
-      "name": "Paramvir Dhindsa",
-      "url": "http://www.paramquery.com/"
-    }
-  ],
-  "description": "jQuery plugin to select multiple or single options with checkboxes, radio buttons, with support for search, grouping, disabled options and jQueryUI themeRoller ready.",
-  "homepage": "http://paramquery.com/select",
+  "description": "jQuery plugin to select multiple or single options with checkboxes, radio buttons, and jQueryUI theme support.",
+  "homepage": "https://paramquery.com/select",
   "repository": {
     "type": "git",
     "url": "https://github.com/paramquery/select.git"
   },
-  "docs": "http://paramquery.com/api/select",
-  "demo": "http://paramquery.com/select",
   "files": [
-    "index.js",
+    "pqselect.mjs",
     "pqselect.min.js",
     "pqselect.dev.js",
     "pqselect.min.css",
     "pqselect.dev.css",
     "pqselect.bootstrap.min.css",
     "pqselect.bootstrap.dev.css",
-    "GPL-LICENSE.txt",
+    "index.htm",
+    "pqselect.d.ts",
+    "MIT-LICENSE.txt",
     "README.md",
-    "ChangeLog.txt",
-    "pqselect.d.ts"
+    "ChangeLog.txt"
   ],
-  "license": "See enclosed",
+  "license": "MIT",
   "keywords": [
     "jquery-plugin",
     "ecosystem:jquery",
     "multiple-select",
-    "option",
-    "checkbox",
-    "radio",
-    "collision-detection",
-    "ui",
-    "theme-roller",
-    "grouping",
-    "search",
-    "disabled-options"
+    "ui"
   ],
   "bugs": "https://github.com/paramquery/select/issues",
   "peerDependencies": {
-    "@types/jquery": ">=2.2.1",
-    "@types/jqueryui": ">=1.12.1",
     "jquery": ">=2.2.1",
-    "jquery-ui-pack": ">=1.12.1"
+    "jquery-ui-pack": ">=1.12.3"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-concat": "^0.5.0",
-    "grunt-contrib-copy": "^0.7.0",
-    "grunt-contrib-cssmin": "^0.10.0",
-    "grunt-contrib-uglify": "^0.6.0",
-    "grunt-debug-task": "^0.1.5",
-    "grunt-stripcomments": "^0.3.1"
+    "clean-css": "^5.3.3",
+    "prettier": "*"
   },
-  "types": "pqselect.d.ts",
-  "dependencies": {
-    "grunt-cli": "^1.4.3"
-  }
+  "types": "pqselect.d.ts"
 }

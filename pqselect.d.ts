@@ -26,6 +26,7 @@ declare module pq {
         interface options{
             
             checkbox?: boolean
+            data?: object[] //2.1.0
             deselect?: boolean
             displayText?: String
             edgeDetect?: boolean
@@ -42,6 +43,8 @@ declare module pq {
             searchRule?: string
             selectallText?: string
             singlePlaceholder?: string
+            textIndx?: string //2.1.0
+            valIndx?: string //2.1.0
             width?: numberorstring                
 
             //#################################inline Events-------------            
@@ -64,9 +67,7 @@ declare module pq {
 
             enable()
 
-            getInstance(): {
-                select: instance
-            }
+            instance(): instance   //2.1.0         
 
             isOpen(): boolean
 
@@ -84,6 +85,8 @@ declare module pq {
 
             refreshData()
             
+            val(): numberorstring | numberorstring[]  //2.1.0
+
             widget(): JQueryStatic
         }
     }

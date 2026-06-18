@@ -6,28 +6,9 @@
  *
  */
 
-(function (factory) {
-  if (typeof module === 'object' && module.exports) {
-    // CommonJS / Node
-    const jq = require('jquery');
-    const pq = factory(jq, {});
+import $ from 'jquery-ui-pack';
 
-    // Default export
-    module.exports = pq;
-
-    // Named exports
-    module.exports.pq = pq;
-    module.exports.jQuery = jq;
-    module.exports.$ = jq;
-  } else {
-    // Browser globals
-    if (typeof window !== 'undefined' && window.jQuery) {
-      window.pq = factory(window.jQuery, window.pq || {});
-    } else {
-      throw new Error('pq requires jQuery to be loaded first.');
-    }
-  }
-})(function ($, pq) {
+const pq = (function ($, pq) {
   'use strict';
   $.support.touch = 'ontouchend' in document;
   var fn = {};
@@ -1202,4 +1183,7 @@
   };
 
   return pq;
-});
+})($, {});
+
+export default pq;
+export { $ as jQuery, $, pq };

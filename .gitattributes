@@ -1,0 +1,11 @@
+# Set the default behavior to handle all files automatically and normalize liendings to LF
+* text=auto eol=lf
+
+# Explicitly declare files that should always keep LF
+*.js text eol=lf
+*.mjs text eol=lf
+*.css text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.d.ts text eol=lf
+*.json text eol=lf
